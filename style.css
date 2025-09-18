@@ -1,0 +1,38 @@
+*{
+  border:0px;
+  margin:0px;
+}
+
+html{
+  font-family: "Roboto", Arial, sans-serif;
+  background:#22223B;
+}
+
+#wrapper{
+  width:1024px;
+  height:100%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:0;
+  margin-bottom:0;
+  background:#4A4E69;
+}
+
+header{
+  padding:25px;
+  background:darkgray;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap:10%;
+  padding:10%;
+}
+
+.card{
+  padding:30px;
+  height:300px;
+  border-radius:25px;
+  background:gray;
+}
