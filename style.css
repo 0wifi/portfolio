@@ -61,7 +61,7 @@ ul li :hover{
   display: grid;
   grid-template-columns: auto auto;
   gap:10%;
-  padding:10%;
+  padding:5%;
 }
 
 .card{
@@ -69,4 +69,12 @@ ul li :hover{
   height:300px;
   border-radius:25px;
   background:gray;
+}
+
+#photo{
+  width:70%;
+  height:70%;
+  border-radius:50%;
+  background-image: url('e-clayson1.png');
+  justify-self:center;
 }
