@@ -75,6 +75,9 @@ ul li :hover{
   width:70%;
   height:70%;
   border-radius:50%;
-  background-image: url('e-clayson1.png');
   justify-self:center;
+  background-image: url('e-clayson1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
